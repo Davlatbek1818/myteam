@@ -1,0 +1,308 @@
+*{
+    font-family: "Livvic", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    max-width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.header{
+    padding-top: 73px;
+    background-color:  rgba(1, 78, 86, 1);
+}
+.header-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;  
+}
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 120px;
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+}
+.header-button{
+    display: block;
+    padding: 9px 32px;
+    border: 2px solid rgba(255, 255, 255, 1);
+    border-radius: 50px;
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    color:  rgba(255, 255, 255, 1);
+    background-color: transparent;
+}
+.header-link{
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
+.header-wrapper-2{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 120px;   
+}
+.header-title{
+    font-family: Livvic;
+    padding-bottom: 56px;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 100px;
+    text-align: left;
+    color: white;
+}
+.header-text{
+    width: 730px;
+    padding-top: 45px;
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    color: white;
+}
+.hero{
+    background-color: rgba(0, 64, 71, 1);
+}
+.hero-wrapper{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding-bottom: 148px;
+}
+.hero-box{
+    width: 350px;
+    padding-top: 32px;
+    background-color: rgba(1, 47, 52, 1);
+}
+.hero-title{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    font-family: Livvic;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    color: white;
+}
+.hero-title-2{
+    padding-top: 24px;
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    color: rgba(121, 200, 199, 1);
+}
+.hero-text{
+    font-family: Livvic;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: white;
+}
+.best{
+    background-color: rgba(1, 47, 52, 1);
+}
+.best-title{
+    padding-top: 113px;
+    /* padding-bottom: 52px; */
+    font-family: Livvic;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    color: white;
+}
+.best-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 52px;
+    padding-bottom: 113px;
+}
+.start{
+    background-color:  rgba(246, 126, 126, 1);
+}
+.start-box{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 76px;
+    padding-bottom: 76px;
+}
+.start-title{
+    font-family: Livvic;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    color:  rgba(1, 47, 52, 1);
+}
+.start-button{
+    padding: 9px 32px;
+    border: 2px solid rgba(1, 47, 52, 1 );
+    border-radius: 50px;
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    color:  rgba(1, 47, 52, 1);
+    background-color: transparent;
+}
+.footer{
+    background-color:  rgba(0, 37, 41, 1);
+}
+.footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-box{
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+@media(max-width: 1010px){
+    .header-wrapper-2{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .header-text{
+        width: 457px;
+        text-align: center;
+        padding-top: 0;
+    }
+    .hero-wrapper{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    .start-title{
+        font-family: Livvic;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+        text-align: left;
+        
+    }
+    .best-box{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+}
+
+.burger-menu{
+    display: none;
+}
+.close-button{
+    display: none;
+}
+@media (max-width: 610px) {
+    
+    .header{
+        position: relative;
+        overflow: hidden;
+    }
+    .header-title{
+        font-family: Livvic;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 40px;
+        text-align: center;
+        
+    }
+    .header-text{
+        font-family: Livvic;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 28px;
+        text-align: center;
+        
+    }
+    .hero-title{
+        font-family: Livvic;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+        text-align: center;
+        
+    }
+    .best-title{
+        font-family: Livvic;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+        text-align: center;
+        
+    }
+    .start-box{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .burger-menu{
+        display: block;
+    }
+    .header-box{
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: #089290;
+        flex-direction: column;
+        width: 300px;
+        height: 500px;
+        justify-content: center;
+        transform: translateX(100%);
+        transition: .4s;
+    }
+    .header-show{
+        transform: translateX(0);
+        transition: .4s;
+    }
+    .close-button{
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        color: #fff;
+        font-size: 40px;
+        font-weight: 300;
+    }
+}
+@media (max-width:510px) {
+    .header-text{
+        width: 327px;
+        font-family: Livvic;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 28px;
+        text-align: center;
+    }
+    .header-title{
+        padding-bottom: 0;
+        margin-bottom: 16px;
+    }
+    .start-title{
+        text-align: center;
+    }
+    .footer-wrapper{
+        flex-direction: column;
+        align-items: center;
+        padding-top: 66px;
+    }
+}
